@@ -10,54 +10,59 @@ import LoginLayout from "../layouts/Login";
 import Register from "../pages/Register";
 import Help from "../pages/Help";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <MainLayout />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          index: true,
+          element: <Home />,
+        },
+        {
+          path: "/find-job",
+          element: <FindJob />,
+        },
+        {
+          path: "/resources",
+          element: <Resources />,
+        },
+        {
+          path: "/blog",
+          element: <Blog />,
+        },
+        {
+          path: "/help",
+          element: <Help />,
+        },
+      ],
+    },
+    {
+      path: "/login",
+      element: <LoginLayout />,
+      children: [
+        {
+          index: true,
+          element: <Login />,
+        },
+      ],
+    },
+    {
+      path: "/signup",
+      element: <LoginLayout />,
+      children: [
+        {
+          index: true,
+          element: <Register />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <MainLayout />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: "/find-job",
-        element: <FindJob />,
-      },
-      {
-        path: "/resources",
-        element: <Resources />,
-      },
-      {
-        path: "/blog",
-        element: <Blog />,
-      },
-      {
-        path: "/help",
-        element: <Help />,
-      },
-    ],
-  },
-  {
-    path: "/login",
-    element: <LoginLayout />,
-    children: [
-      {
-        index: true,
-        element: <Login />,
-      },
-    ],
-  },
-  {
-    path: "/signup",
-    element: <LoginLayout />,
-    children: [
-      {
-        index: true,
-        element: <Register />,
-      },
-    ],
-  },
-]);
+    basename: "/seasonal-work-frontend",
+  }
+);
 
 export default router;
