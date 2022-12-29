@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/seasonal-work-frontend/static/css/main.63db9244.css",
-    "main.js": "/seasonal-work-frontend/static/js/main.96bc0a9f.js",
+    "main.js": "/seasonal-work-frontend/static/js/main.7d745935.js",
     "index.html": "/seasonal-work-frontend/index.html",
     "main.63db9244.css.map": "/seasonal-work-frontend/static/css/main.63db9244.css.map",
-    "main.96bc0a9f.js.map": "/seasonal-work-frontend/static/js/main.96bc0a9f.js.map"
+    "main.7d745935.js.map": "/seasonal-work-frontend/static/js/main.7d745935.js.map"
   },
   "entrypoints": [
     "static/css/main.63db9244.css",
-    "static/js/main.96bc0a9f.js"
+    "static/js/main.7d745935.js"
   ]
 }
