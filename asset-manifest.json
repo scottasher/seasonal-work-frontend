@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/seasonal-work-frontend/static/css/main.63db9244.css",
-    "main.js": "/seasonal-work-frontend/static/js/main.7d745935.js",
+    "main.css": "/seasonal-work-frontend/static/css/main.522ce932.css",
+    "main.js": "/seasonal-work-frontend/static/js/main.6df4db0c.js",
+    "static/media/pexels-olena-bohovyk-5345029.jpg": "/seasonal-work-frontend/static/media/pexels-olena-bohovyk-5345029.276992272541272af0be.jpg",
     "index.html": "/seasonal-work-frontend/index.html",
-    "main.63db9244.css.map": "/seasonal-work-frontend/static/css/main.63db9244.css.map",
-    "main.7d745935.js.map": "/seasonal-work-frontend/static/js/main.7d745935.js.map"
+    "main.522ce932.css.map": "/seasonal-work-frontend/static/css/main.522ce932.css.map",
+    "main.6df4db0c.js.map": "/seasonal-work-frontend/static/js/main.6df4db0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.63db9244.css",
-    "static/js/main.7d745935.js"
+    "static/css/main.522ce932.css",
+    "static/js/main.6df4db0c.js"
   ]
 }
